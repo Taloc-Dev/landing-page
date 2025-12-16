@@ -91,3 +91,27 @@
     align-items: center;
     justify-content: center;
 }
+
+.quote-container{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    font-size: 36px;
+    counter-reset: #1F2937;
+    font-weight: 300;
+}
+.quote-author{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+}
